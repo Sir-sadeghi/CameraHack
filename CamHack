@@ -88,7 +88,7 @@ cwd=`pwd`
 
 # Logo 
 logo="
-${green}    SUMAN       Online Hacking
+${green}    My love       Elenam
 ${cyan} 
 ${cyan}     ██████  ███████ ███    ███        
 ${cyan}     ██      ██   ██ ████  ████        
@@ -518,7 +518,7 @@ $red[Author]     ${cyan} :[Mr Sadeghi]
 $red[Github]     ${cyan} :[https://github.com/Sir-sadeghi] 
 $red[Rubika]     ${cyan} :[https://Rubika.ir/coding_maestro]
 $red[Telegarm]   ${cyan} :[https://t.me/lockader_virus]"
-printf "${cyan}\nCam${nc}@${cyan}Hacker ${red}$ ${nc}"
+printf "${cyan}\nMy(love)${nc}@${cyan}Elena ${red}$ ${nc}"
 read about
     elif echo $option | grep -q "m"; then
         xdg-open "https://Rubika.ir/coding_maestro"
