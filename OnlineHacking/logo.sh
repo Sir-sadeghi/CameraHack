@@ -12,7 +12,7 @@ echo -e "\e[95m███╗   ███╗███╗   ███╗███�
    echo -e $'\e[1;33m\e[0m\e[1;33m  [\e[0m\e[1;32m Follow Github : \e[36mhttps://github.com/sir-sadeghi/CameraHack\e[0m \e[1;32m\e[0m\e[1;33m]\e[0m'
    echo ""
       echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ >>\e[0m'
-      echo -e "\e[93m    |M|o|h|m|a|d| |S|a|d|e|g|h|i|"      
+      echo -e "\e[93m    |M|o|h|m|m|a|d| |S|a|d|e|g|h|i|"      
       echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ >>\e[0m' 
       echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+ >>\e[0m'
       echo -e "\e[95m    |M|A|M|M|D|"      
